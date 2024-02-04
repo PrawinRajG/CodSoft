@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/6235dd522f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <img src="./images/write-removebg-preview.png" alt="" class="aa" />
+      <div class="container">
+        <nav>
+          <img src="images/logoo.png" alt="logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects"> Projects</a></li>
+            <li><a href="#portfolio">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h2>
+            Aspiring Developer: <br />
+            Crafting a Digital Tomorrow
+          </h2>
+        </div>
+      </div>
+      <!-- ---------aboutt---- -->
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Hello, I'm Prawin Raj, an Electronics and Communication
+              Engineering student deeply passionate about programming.
+              Proficient in C, Java, HTML, and CSS, I specialize in web
+              development, weaving creativity and functionality into dynamic and
+              responsive solutions. With consistently high grades, my academic
+              journey reflects a dedication to excellence. Eager to contribute
+              to the evolving web landscape, I believe in the power of code to
+              craft engaging online experiences. Excited about the endless
+              possibilities in this dynamic field, I'm ready to bring ideas to
+              life and create something remarkable. Let's connect and build the
+              future of the web together! Eager to contribute my skills to the
+              evolving landscape of web development, I am enthusiastic about
+              creating seamless and visually appealing online experiences. My
+              dedication to both the art and science of coding fuels my
+              aspirations for continuous growth in this dynamic field.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('certifications')">
+                Certifications
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span class="la">Programming Languages</span><br />C, Java,
+                  Python(Basics)
+                </li>
+
+                <li>
+                  <span class="la"> Development</span><br />Web development
+                </li>
+                <li><span class="la">DataBase</span><br />Sql</li>
+              </ul>
+            </div>
+            <!-- --------------------------------------------------------- -->
+            <div class="tab-contents " id="certifications">
+              <ul>
+                <li><span class="laa">NPTEL</span><br/>The Joy Computing using Python <br>Introduction to Programming in C</li>
+
+                <li><span class="laa"> Hackerrank</span><br />Java(Basics) <br>Python(Basics)<br>SQL(Basics) <br>Problem Solving(Basics)</li>
+                <li><span class="laa">Codechef</span><br />Learn C <br>Pratice C</li>
+                <li><span class="laa">Infosys Springboard</span><br />27 Courses</li>
+                <li><span class="laa">Codechef</span><br />Java Programming</li>
+                <li><span class="laa">Skillrack</span><br />C, Java,SQL,Kickstart with C</li>
+                <li><span class="laa">Dakshin Bharat Hindi Prachar Sabha</span><br />4 Levels Certified</li>
+
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span >2018-2019 </span><br />SSLC <br />SPJ Matric Hr. Sec. School
+                </li>
+                <li>
+                  <span>2020-2021 </span><br />HSC <br />Velammal Matric Hr. Sec. School
+                </li>
+                <li>
+                  <span
+                    >2021-current </span><br />B.E - ECE <br />Karpagam College of Engineering
+                  
+                </li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+      <!-- PRojects--------------------------------- -->
+      <div id="projects">
+        <div class="container">
+          <h1 class="sub-title">My Projects</h1>
+          <div class="projects-list">
+            <div>
+              <i class="fa-solid fa-dice"></i>
+              <h2>Electronic Dice using Digital Concept</h2>
+              <p>
+                Electronic dice is used to generate random numbers specifically
+                between one to six , and act as an alternative to the old-
+                fashioned die.
+              </p>
+            </div>
+            <div>
+              <i class="fa-solid fa-globe"></i>
+              <h2>Automated Language Translator</h2>
+              <p>
+                The Automated Language Translator Project is a web-based
+                application developed using HTML, CSS, and JavaScript to
+                seamlessly translate text between multiple languages, offering
+                users an intuitive and responsive interface for efficient
+                cross-language communication
+              </p>
+            </div>
+            <div>
+              <i class="fas fa-code"></i>
+              <h2>Event Management System</h2>
+              <p>
+                An Event Management System is a software application that utilizes
+                JDBC (Java Database Connectivity) to efficiently organize and
+                manage events, utilizing classes such as EventManager and
+                DatabaseConnector for seamless event coordination and data
+                retrieval.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------portfolio------ -->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">Internships</h1>
+          <div class="intern">
+            <div class="work">
+              <img src="images/work-1.png" />
+              <div class="layerss">
+                <h3>Shree Engineering</h3>
+                <p>
+                  Pursued Internship in SHREE ENGINEERING (Industrial automation
+                  in Control Panel Dept ). Aug 2022- Sep2022.
+                </p>
+                <a href="#"><i class="fa-solid fa-wand-sparkles"></i></a>
+              </div>
+              
+            </div>
+            <div class="work">
+              <img src="images/work-2.png" />
+              <div class="layerss">
+                  <h3>CodSoft</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                    asperiores facere illum neque optio ut iure delectus autem
+                    quibusdam voluptate amet alias saepe sit eum at et, culpa
+                    exercitationem deserunt!
+                  </p>
+                  <a href="#"><i class="fa-solid fa-code"></i></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -----------------contacy----------- -->
+      <div id="contact">
+          <div class="container">
+              <div class="row">
+                  <div class="contact-left">
+                      <h1 class="sub-title">Contact</h1>
+                      <p> <i class="fa-solid fa-envelope"></i>iamprawin380@gmail.com</p>
+                      <p> <i class="fa-solid fa-phone"></i>phn no</p>
+                      <br>
+                      <div class="social-icons">
+                          <a href=""><i class="fa-brands fa-github"></i></a>
+                          <a href=""><i class="fa-brands fa-instagram"></i></a>
+                          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                          <a href=""><i class="fa-brands fa-facebook"></i></a>
+                      </div>
+                      <br><br>
+                      <a href="images/my-cv.pdf" download class = "btn btn2">Download CV</a><br><br><br><br><br>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu()
+    {
+      sidemenu.style.right= "0";
+    }
+    function closemenu()
+    {
+      sidemenu.style.right= "-200px";
+    }
+   </script>
+
+
+  </body>
+</html>
